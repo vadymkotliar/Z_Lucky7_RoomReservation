@@ -1,6 +1,6 @@
 Feature: Login 
 
-@temp
+
 Scenario: user login with valid credentials
 
 	Given user is on the login page

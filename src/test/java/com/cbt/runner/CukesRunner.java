@@ -14,9 +14,10 @@ import cucumber.api.junit.Cucumber;
 		
 		},
 		
-		//tags="@temp",
-		features="src/test/resources/com/prestashop/features", 
-		glue="com/prestashop/step_definitions"
+		tags="@temp",
+		features= "src/test/resources/com/cbt/features", 
+		glue= "com/cbt/step_definitions"
+		
 //		,dryRun = true
 		)
 public class CukesRunner {}

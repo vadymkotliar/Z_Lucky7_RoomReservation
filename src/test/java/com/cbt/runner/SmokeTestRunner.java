@@ -15,8 +15,8 @@ import cucumber.api.junit.Cucumber;
 		},
 		
 		tags="@smoke",
-		features="src/test/resources/com/prestashop/features", 
-		glue="com/prestashop/step_definitions"
+		features="src/test/resources/com/cbt/features", 
+		glue="com/cbt/step_definitions"
 		
 //		,dryRun = true
 		)
