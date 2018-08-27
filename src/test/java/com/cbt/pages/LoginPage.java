@@ -21,6 +21,9 @@ public class LoginPage {
 	@FindBy(xpath = "//button[@class='button is-dark']")
 	public WebElement button;
 	
+	@FindBy(xpath = "//h1[@class='title']")
+	public WebElement homePage;
+	
 	
 	
 	

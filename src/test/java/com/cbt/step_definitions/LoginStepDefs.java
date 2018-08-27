@@ -29,10 +29,9 @@ public void user_logs_in_valid_and(String string, String string2) {
 }
 @Then("user should see home page")
 public void user_should_see_home_page() {
-   
+   lg.homePage.isDisplayed();
 	
 }
- 
 	
 }
 
