@@ -3,3 +3,6 @@
 /.classpath
 /bin/
 /.DS_Store
+/target/
+cucumber.json
+report.js
